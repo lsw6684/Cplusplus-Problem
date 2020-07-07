@@ -1,14 +1,13 @@
-ï»¿#include<iostream>
+#include<iostream>
 
 int main(void)
 {
-	char name[20], number[20];
+	int a;
+	std::cout<<"±¸±¸´ÜÀ» À§ÇÑ Á¤¼ö ÀÔ·Â\n";
 	
-	std::cout<<"ì „í™”ë²ˆí˜¸ ìž…ë ¥"<<std::endl;
-	std::cin>>number;
-	std::cout<<"ì´ë¦„ ìž…ë ¥"<<std::endl;
-	std::cin>>name;
+	std::cin>>a;
+	for(int i=1;i<10;i++)
+	std::cout<<a<<"x"<<i<<"="<<a*i<<std::endl;
 	
-	std::cout<<number<<std::endl<<name;
-	
+	return 0;
 }
