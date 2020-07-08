@@ -5,7 +5,7 @@ int main(void)
 	int result=0, a;
 	for(int i=1; i<6; i++)
 	{
-		std::cout<<i<<"¹øÂ° Á¤¼ö ÀÔ·Â: "<<std::endl;
+		std::cout<<i<<"ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ : "<<std::endl;
 		std::cin>>a;
 		result+=a;
 	}
