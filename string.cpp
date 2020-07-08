@@ -3,7 +3,7 @@
 int main(void)
 {
 	int a;
-	std::cout<<"±¸±¸´ÜÀ» À§ÇÑ Á¤¼ö ÀÔ·Â\n";
+	std::cout<<"ì›í•˜ëŠ” ì •ìˆ˜ì˜ êµ¬êµ¬ë‹¨ì„ ";
 	
 	std::cin>>a;
 	for(int i=1;i<10;i++)
