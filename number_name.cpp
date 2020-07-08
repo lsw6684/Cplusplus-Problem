@@ -4,9 +4,9 @@ int main(void)
 {
 	char name[20], number[20];
 	
-	std::cout<<"ÀüÈ­¹øÈ£ ÀÔ·Â"<<std::endl;
+	std::cout<<"ì „í™”ë²ˆí˜¸ ì…ë ¥"<<std::endl;
 	std::cin>>number;
-	std::cout<<"ÀÌ¸§ ÀÔ·Â"<<std::endl;
+	std::cout<<"ì´ë¦„ "<<std::endl;
 	std::cin>>name;
 	
 	std::cout<<number<<std::endl<<name;
