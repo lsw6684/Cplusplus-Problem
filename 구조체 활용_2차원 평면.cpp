@@ -28,7 +28,7 @@ int main(void)
 	Point &pref=PntAdder(*pptr1, *pptr2);
 	cout<<"["<<pref.xpos<<", "<<pref.ypos<<"]"<<endl;
 	
-	delete pptr1;		//´õ ÀÌ»óÀÇ È°¿ëÀÌ ¾ø´Ù¸é Ãâ·Â°ú °ü·Ã¾ø´Ù. 
+	delete pptr1;		//ë” ì´ìƒì˜ í™œìš©ì´ ì—†ë‹¤ë©´ ì¶œë ¥ì— ì˜í–¥ì„ ë¼ì¹˜ì§€ ì•ŠëŠ”ë‹¤.
 	delete pptr2;
 	delete &pref;
 	return 0;
