@@ -1,21 +1,23 @@
 #include <iostream>
 using namespace std;
 
+//Circle ì„ ì–¸ë¶€
 class Circle{
 	public:
 		int radius;
 		double getArea();
 };
 
+//Circle êµ¬í˜„ë¶€
 double Circle::getArea(){
 	return 3.14*radius*radius;
 }
 
 int main(){
-	Circle object;
-	cout<<"³ĞÀÌ°¡ ±Ã±İÇÑ ¿øÇü ¹°Ã¼ÀÇ ¹İÁö¸§À» ÀÔ·ÂÇÏ¼¼¿ä\n"; 
-	cin>>object.radius;
+	Circle object;	//ê°ì²´ obeject ìƒì„±
+	cout<<"ë„“ì´ê°€ ê¶ê¸ˆí•œ ì›í˜• ë¬¼ì²´ì˜ ë°˜ì§€ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”\n"; 
+	cin>>object.radius;	//ë©¤ë²„ ë³€ìˆ˜ì˜ ì ‘ê·¼
 	double area = object.getArea();
-	cout<<"³ĞÀÌ : " << area <<endl;
+	cout<<"ë„“ì´ : " << area <<endl;
 	
 }
