@@ -17,7 +17,6 @@ int main(){
 	Circle object;	//객체 obeject 생성
 	cout<<"넓이가 궁금한 원형 물체의 반지름을 입력하세요\n"; 
 	cin>>object.radius;	//멤버 변수의 접근
-	double area = object.getArea();
-	cout<<"넓이 : " << area <<endl;
-	
+	double area = object.getArea();	//멤버 함수 
+	cout<<"넓이 : " << area <<endl;	
 }
