@@ -3,7 +3,7 @@ using namespace std;
 
 void IncreOne(int &num)
 {
-	num++;
+	num++; 
 }
 
 void InverSign(int &num)
