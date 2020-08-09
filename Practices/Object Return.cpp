@@ -2,7 +2,7 @@
 #include <stdlib.h> 
 
 using namespace std;
-
+ 
 class Circle{
 	int radius;
 
@@ -15,12 +15,12 @@ public:
 
 Circle getCircle(){
 	Circle tmp(30);
-	return tmp;	//°´Ã¼ tmp¸¦ ¸®ÅÏÇÑ´Ù. 
+	return tmp;	//ê°ì²´ tmpë¥¼ ë¦¬í„´í•œë‹¤. 
 }
 
 int main()
 {
-	Circle c;	//°´Ã¼°¡ »ı¼ºµÈ´Ù. radius = 1·Î ÃÊ±âÈ­
+	Circle c;	//ê°ì²´ê°€ ìƒì„±ëœë‹¤. radius = 1ë¡œ ì´ˆê¸°í™”
 	cout << c.getArea() << endl;
 	
 	c = getCircle();
