@@ -39,7 +39,7 @@ int main()
 	for(int i = 0; i < 2; i++)
 		for(int j = 0; j < 3; j++)
 		{
-			cout << "Circle [" << i << ", " << j << "]ÀÇ ¸éÀûÀº ";
+			cout << "Circle [" << i << ", " << j << "]의 넓이는? ";
 			cout << circles[i][j].getArea() << endl; 
 				}		
 }
