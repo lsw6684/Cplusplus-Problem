@@ -3,7 +3,7 @@
 
 int main()
 {
-	std::cout <<"\n Find Size of fundamental data types :\n";
+	std::cout<< std::endl <<" Find Size of fundamental data types :\n";
 	std::cout << "-------------------------------------------\n";
 
 	std::cout << "The sizeof(char) is :		" << sizeof(char) << " bytes\n";
