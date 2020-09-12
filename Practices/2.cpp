@@ -1,21 +1,16 @@
 #include <iostream>
-#include <stdlib.h>
+int ip1, ip2;
+void main() {
+	std::cout << "Input an age of A: ";
+	std::cin >> ip1;
+	std::cout << "Input an age of B: ";
+	std::cin >> ip2;
 
-int main()
-{
-	std::cout<< std::endl <<" Find Size of fundamental data types :\n";
-	std::cout << "-------------------------------------------\n";
-
-	std::cout << "The sizeof(char) is :		" << sizeof(char) << " bytes\n";
-	std::cout << "The sizeof(short) is :		" << sizeof(short) << " bytes\n";
-	std::cout << "The sizeof(int) is :		" << sizeof(int) << " bytes\n";
-	std::cout << "The sizeof(long) is :		" << sizeof(long) << " bytes\n";
-	std::cout << "The sizeof(long long) is :	" << sizeof(long long) << " bytes\n";
-	std::cout << "The sizeof(float) is :		" << sizeof(float) << " bytes\n";
-	std::cout << "The sizeof(double) is :		" << sizeof(double) << " bytes\n";
-	std::cout << "The sizeof(long double) is :	" << sizeof(long double) << " bytes\n";
-	std::cout << "The sizeof(bool) is :		" << sizeof(bool) << " bytes\n";
-
+	if (ip1 > ip2)
+		std::cout << "A is order than B" << std::endl;
+	else if (ip1 < ip2)
+		std::cout << "B is order than A" << std::endl;
+	else
+		std::cout << "A and B are the sme age" << std::endl;
 	system("pause");
-	return 0;
 }
