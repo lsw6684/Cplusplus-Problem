@@ -20,6 +20,6 @@ int main() {
 		}
 	}
 	std::cout << "\n";
-	delete input;
+	delete[] input;
 	system("pause");
 }
